@@ -1,6 +1,16 @@
+.vscode/
+.idea/
 .env
-bin/
-*.exe
-*.test
-*.out
+vendor/
 .DS_Store
+out
+
+# Go debug binaries
+__debug_bin*
+debug
+debug.test
+
+# Binaries
+main
+preview
+build/
