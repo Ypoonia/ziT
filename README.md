@@ -29,25 +29,25 @@ We follow a structured commit format tailored for a multi-layered architecture, 
 
 ### 🏗️ Layers
 
-| Layer      | Emoji | Description                                 |
-| ---------- | ----- | ------------------------------------------- |
-| `frontend` | 🎨    | Next.js client-side application changes     |
-| `backend`  | ⚙️    | Go backend APIs, services, and routing      |
-| `infra`    | ☁️    | Docker, CI/CD pipelines, Terraform, configs |
-| `docs`     | 📚    | Documentation, READMEs, and wiki updates    |
-| `shared`   | 🔗    | Shared contracts, types, and interfaces     |
+| Layer      | Description                                 |
+| ---------- | ------------------------------------------- |
+| `frontend` | Next.js client-side application changes     |
+| `backend`  | Go backend APIs, services, and routing      |
+| `infra`    | Docker, CI/CD pipelines, Terraform, configs |
+| `docs`     | Documentation, READMEs, and wiki updates    |
+| `shared`   | Shared contracts, types, and interfaces     |
 
 ### 🧩 Types
 
-| Type       | Emoji | Purpose                                                      |
-| ---------- | ----- | ------------------------------------------------------------ |
-| `feat`     | ✨    | Introduces a new feature to the codebase                     |
-| `fix`      | 🐛    | Patches a bug in the codebase                                |
-| `refactor` | ♻️    | Code changes that neither fix a bug nor add a feature        |
-| `chore`    | 🧹    | Tooling, config, or minor dependency changes                 |
-| `test`     | 🧪    | Adding missing tests or correcting existing ones             |
-| `perf`     | ⚡    | Code changes that improve performance                        |
-| `style`    | 💅    | Formatting, missing semi-colons, etc. (no code logic change) |
+| Type       | Purpose                                                      |
+| ---------- | ------------------------------------------------------------ |
+| `feat`     | Introduces a new feature to the codebase                     |
+| `fix`      | Patches a bug in the codebase                                |
+| `refactor` | Code changes that neither fix a bug nor add a feature        |
+| `chore`    | Tooling, config, or minor dependency changes                 |
+| `test`     | Adding missing tests or correcting existing ones             |
+| `perf`     | Code changes that improve performance                        |
+| `style`    | Formatting, missing semi-colons, etc. (no code logic change) |
 
 ### 💡 Commit Examples
 
